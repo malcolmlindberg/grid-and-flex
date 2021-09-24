@@ -1,0 +1,41 @@
+.wrapper{
+    justify-content: space-evenly;
+    background-color: rgb(255, 234, 49);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    
+
+}
+
+#article1, #article2, #article3{
+    border: solid black 3px;
+    height: 600px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20%;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(238, 221, 127));
+}
+
+#article2{
+    width: 40%;
+    background-image:  linear-gradient(to right, rgba(163, 235, 190, 0), rgb(202, 218, 116));
+
+}
+
+@media only screen and (min-width: 768px) {
+    .wrapper{
+        display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin-top: 90px;
+    justify-content: space-evenly;
+    font-size: 40px;
+    }
+}
+
